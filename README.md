@@ -7,3 +7,9 @@ The algorthms of this project are:
 - FloodFill Algorithm
 
   ![Captura de pantalla](tarea_relleno_circulo/FondoInicio.png)
+
+📁 Aprende el funcionamiento de los algoritmos que deciden qué pixeles de la pantalla se deben pintar
+
+📁 Usa tu creatividad
+
+  ![Captura de pantalla](tarea_relleno_circulo/grafico.jpg)
