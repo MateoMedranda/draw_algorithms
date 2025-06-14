@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|c:\\users\\mateo\\desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\floodfill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|solutionrelative:tarea_relleno_circulo\\floodfill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|c:\\users\\mateo\\desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\circunferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|solutionrelative:tarea_relleno_circulo\\circunferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|c:\\users\\mateo\\desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\bresenham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|solutionrelative:tarea_relleno_circulo\\bresenham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|c:\\users\\mateo\\desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\dda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|solutionrelative:tarea_relleno_circulo\\dda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|c:\\users\\mateo\\desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\formcircunferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|solutionrelative:tarea_relleno_circulo\\formcircunferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|c:\\users\\mateo\\desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\formbresenham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|solutionrelative:tarea_relleno_circulo\\formbresenham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|c:\\users\\mateo\\desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\formddl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|solutionrelative:tarea_relleno_circulo\\formddl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\formddl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|solutionrelative:tarea_relleno_circulo\\formddl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\formbresenham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|solutionrelative:tarea_relleno_circulo\\formbresenham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|c:\\users\\mateo\\desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\formrellenodibujolibre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|solutionrelative:tarea_relleno_circulo\\formrellenodibujolibre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|solutionrelative:tarea_relleno_circulo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\formrellenodibujolibre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|solutionrelative:tarea_relleno_circulo\\formrellenodibujolibre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|c:\\users\\mateo\\desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|solutionrelative:tarea_relleno_circulo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\formcircunferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B0F6650-C179-4D21-9BC1-0E7B6DF457EF}|tarea_relleno_circulo\\tarea_relleno_circulo.csproj|solutionrelative:tarea_relleno_circulo\\formcircunferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FloodFill.cs",
+              "DocumentMoniker": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\FloodFill.cs",
+              "RelativeDocumentMoniker": "tarea_relleno_circulo\\FloodFill.cs",
+              "ToolTip": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\FloodFill.cs",
+              "RelativeToolTip": "tarea_relleno_circulo\\FloodFill.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwEQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T02:45:13.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormDDL.cs",
+              "DocumentMoniker": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\FormDDL.cs",
+              "RelativeDocumentMoniker": "tarea_relleno_circulo\\FormDDL.cs",
+              "ToolTip": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\FormDDL.cs",
+              "RelativeToolTip": "tarea_relleno_circulo\\FormDDL.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAApwCIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T02:01:56.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormDDL.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\FormDDL.cs",
+              "RelativeDocumentMoniker": "tarea_relleno_circulo\\FormDDL.cs",
+              "ToolTip": "C:\\Users\\Mateo\\Downloads\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\FormDDL.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\FormDDL.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T21:59:30.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DDA.cs",
+              "DocumentMoniker": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\DDA.cs",
+              "RelativeDocumentMoniker": "tarea_relleno_circulo\\DDA.cs",
+              "ToolTip": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\DDA.cs",
+              "RelativeToolTip": "tarea_relleno_circulo\\DDA.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAmwHQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T01:54:37.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormBresenham.cs",
+              "DocumentMoniker": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\FormBresenham.cs",
+              "RelativeDocumentMoniker": "tarea_relleno_circulo\\FormBresenham.cs",
+              "ToolTip": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\FormBresenham.cs",
+              "RelativeToolTip": "tarea_relleno_circulo\\FormBresenham.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T00:58:44.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Circunferencia.cs",
+              "DocumentMoniker": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\Circunferencia.cs",
+              "RelativeDocumentMoniker": "tarea_relleno_circulo\\Circunferencia.cs",
+              "ToolTip": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\Circunferencia.cs",
+              "RelativeToolTip": "tarea_relleno_circulo\\Circunferencia.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwGoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T22:44:11.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormCircunferencia.cs",
+              "DocumentMoniker": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\FormCircunferencia.cs",
+              "RelativeDocumentMoniker": "tarea_relleno_circulo\\FormCircunferencia.cs",
+              "ToolTip": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\FormCircunferencia.cs",
+              "RelativeToolTip": "tarea_relleno_circulo\\FormCircunferencia.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAApwCwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T23:00:28.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bresenham.cs",
+              "DocumentMoniker": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\Bresenham.cs",
+              "RelativeDocumentMoniker": "tarea_relleno_circulo\\Bresenham.cs",
+              "ToolTip": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\Bresenham.cs",
+              "RelativeToolTip": "tarea_relleno_circulo\\Bresenham.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAAwJwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T22:28:58.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormRellenoDibujoLibre.cs",
+              "DocumentMoniker": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\FormRellenoDibujoLibre.cs",
+              "RelativeDocumentMoniker": "tarea_relleno_circulo\\FormRellenoDibujoLibre.cs",
+              "ToolTip": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\FormRellenoDibujoLibre.cs",
+              "RelativeToolTip": "tarea_relleno_circulo\\FormRellenoDibujoLibre.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwEwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T21:49:28.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\Form1.cs",
+              "RelativeDocumentMoniker": "tarea_relleno_circulo\\Form1.cs",
+              "ToolTip": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\Form1.cs",
+              "RelativeToolTip": "tarea_relleno_circulo\\Form1.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T12:49:38.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\Form1.cs",
+              "RelativeDocumentMoniker": "tarea_relleno_circulo\\Form1.cs",
+              "ToolTip": "C:\\Users\\Mateo\\Downloads\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T21:42:00.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormCircunferencia.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\FormCircunferencia.cs",
+              "RelativeDocumentMoniker": "tarea_relleno_circulo\\FormCircunferencia.cs",
+              "ToolTip": "C:\\Users\\Mateo\\Downloads\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\FormCircunferencia.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\FormCircunferencia.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T22:58:28.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormBresenham.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\FormBresenham.cs",
+              "RelativeDocumentMoniker": "tarea_relleno_circulo\\FormBresenham.cs",
+              "ToolTip": "C:\\Users\\Mateo\\Downloads\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\FormBresenham.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\FormBresenham.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T22:58:48.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormRellenoDibujoLibre.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Mateo\\Desktop\\draw_algorithms\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\FormRellenoDibujoLibre.cs",
+              "RelativeDocumentMoniker": "tarea_relleno_circulo\\FormRellenoDibujoLibre.cs",
+              "ToolTip": "C:\\Users\\Mateo\\Downloads\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\FormRellenoDibujoLibre.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\tarea_relleno_circulo\\tarea_relleno_circulo\\tarea_relleno_circulo\\FormRellenoDibujoLibre.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T00:40:34.1Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
