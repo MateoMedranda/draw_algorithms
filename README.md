@@ -6,4 +6,4 @@ The algorthms of this project are:
 - Bresenham Circle
 - FloodFill Algorithm
 
-  ![Captura de pantalla](tarea_relleno_circulo/FondoInicio)
+  ![Captura de pantalla](tarea_relleno_circulo/FondoInicio.png)
