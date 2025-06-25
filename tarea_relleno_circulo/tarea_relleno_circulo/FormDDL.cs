@@ -47,5 +47,18 @@ namespace tarea_relleno_circulo
                 pressBefore = false;
             }
         }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            lbN.Text = "---";
+            lbX.Text = "---";
+            lbY.Text = "---";
+            picCanvas.Refresh();
+        }
+
+        private void lbY_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

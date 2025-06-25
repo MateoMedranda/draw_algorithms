@@ -147,7 +147,7 @@ namespace tarea_relleno_circulo
             cont++;
             contString += cont + "\n";
             XString += x + "\n";
-            YString += y + "\n";
+            YString += (-y) + "\n";
             NLabel.Text = contString;
             XLabel.Text = XString;
             YLabel.Text = YString;

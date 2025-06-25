@@ -8,6 +8,9 @@ namespace tarea_relleno_circulo
         FormBresenham FormBresenham = null;
         FormCircunferencia FormCircunferencia = null;
         FormRellenoDibujoLibre Relleno = null;
+        FormCohen FormCohen = null;
+        FormHodgman FormHodgman = null;
+        FormBezier FormBezier = null;
 
         public Form1()
         {
@@ -24,7 +27,17 @@ namespace tarea_relleno_circulo
             }
         }
 
-        private void algoritmoBresenhamLíneasToolStripMenuItem_Click(object sender, EventArgs e)
+        private void algoritmoDeRellenadoDibujoLibreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (Relleno == null || Relleno.IsDisposed)
+            {
+                Relleno = new FormRellenoDibujoLibre();
+                Relleno.MdiParent = this;
+                Relleno.Show();
+            }
+        }
+
+        private void algoritmoBresenhamLíneasToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             if (FormBresenham == null || FormBresenham.IsDisposed)
             {
@@ -44,13 +57,33 @@ namespace tarea_relleno_circulo
             }
         }
 
-        private void algoritmoDeRellenadoDibujoLibreToolStripMenuItem_Click(object sender, EventArgs e)
+        private void recorteDeLíneasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (Relleno == null || Relleno.IsDisposed)
+            if (FormCohen == null || FormCohen.IsDisposed)
             {
-                Relleno = new FormRellenoDibujoLibre();
-                Relleno.MdiParent = this;
-                Relleno.Show();
+                FormCohen = new FormCohen();
+                FormCohen.MdiParent = this;
+                FormCohen.Show();
+            }
+        }
+
+        private void recorteDeFigurasSutherlandHodgmanToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (FormHodgman == null || FormHodgman.IsDisposed)
+            {
+                FormHodgman = new FormHodgman();
+                FormHodgman.MdiParent = this;
+                FormHodgman.Show();
+            }
+        }
+
+        private void curvasDeBezierToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (FormBezier == null || FormBezier.IsDisposed)
+            {
+                FormBezier = new FormBezier();
+                FormBezier.MdiParent = this;
+                FormBezier.Show();
             }
         }
     }

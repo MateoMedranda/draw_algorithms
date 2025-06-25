@@ -39,8 +39,13 @@
             lbX = new Label();
             lbN = new Label();
             groupBox1 = new GroupBox();
+            panel1 = new Panel();
+            label4 = new Label();
+            label5 = new Label();
+            label6 = new Label();
             ((System.ComponentModel.ISupportInitialize)picCanvas).BeginInit();
             groupBox1.SuspendLayout();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // iconButton1
@@ -56,6 +61,7 @@
             iconButton1.TabIndex = 15;
             iconButton1.Text = "Resetear";
             iconButton1.UseVisualStyleBackColor = true;
+            iconButton1.Click += iconButton1_Click;
             // 
             // lbPoint2
             // 
@@ -118,41 +124,81 @@
             // lbY
             // 
             lbY.AutoSize = true;
-            lbY.Location = new Point(115, 28);
+            lbY.Location = new Point(109, 14);
             lbY.Name = "lbY";
-            lbY.Size = new Size(14, 15);
+            lbY.Size = new Size(22, 15);
             lbY.TabIndex = 9;
-            lbY.Text = "Y";
+            lbY.Text = "---";
+            lbY.Click += lbY_Click;
             // 
             // lbX
             // 
             lbX.AutoSize = true;
-            lbX.Location = new Point(68, 28);
+            lbX.Location = new Point(62, 14);
             lbX.Name = "lbX";
-            lbX.Size = new Size(14, 15);
+            lbX.Size = new Size(22, 15);
             lbX.TabIndex = 8;
-            lbX.Text = "X";
+            lbX.Text = "---";
             // 
             // lbN
             // 
             lbN.AutoSize = true;
-            lbN.Location = new Point(20, 28);
+            lbN.Location = new Point(14, 14);
             lbN.Name = "lbN";
-            lbN.Size = new Size(24, 15);
+            lbN.Size = new Size(22, 15);
             lbN.TabIndex = 7;
-            lbN.Text = "N.-";
+            lbN.Text = "---";
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(lbY);
-            groupBox1.Controls.Add(lbX);
-            groupBox1.Controls.Add(lbN);
+            groupBox1.Controls.Add(panel1);
+            groupBox1.Controls.Add(label4);
+            groupBox1.Controls.Add(label5);
+            groupBox1.Controls.Add(label6);
             groupBox1.Location = new Point(733, 15);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(164, 451);
             groupBox1.TabIndex = 12;
             groupBox1.TabStop = false;
             groupBox1.Text = "Puntos Dibujados";
+            // 
+            // panel1
+            // 
+            panel1.AutoScroll = true;
+            panel1.Controls.Add(lbX);
+            panel1.Controls.Add(lbN);
+            panel1.Controls.Add(lbY);
+            panel1.Location = new Point(6, 56);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(152, 382);
+            panel1.TabIndex = 13;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(115, 28);
+            label4.Name = "label4";
+            label4.Size = new Size(14, 15);
+            label4.TabIndex = 12;
+            label4.Text = "Y";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(68, 28);
+            label5.Name = "label5";
+            label5.Size = new Size(14, 15);
+            label5.TabIndex = 11;
+            label5.Text = "X";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(20, 28);
+            label6.Name = "label6";
+            label6.Size = new Size(24, 15);
+            label6.TabIndex = 10;
+            label6.Text = "N.-";
             // 
             // FormDDL
             // 
@@ -173,6 +219,8 @@
             ((System.ComponentModel.ISupportInitialize)picCanvas).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -190,5 +238,9 @@
         private Label lbX;
         private Label lbN;
         private GroupBox groupBox1;
+        private Label label4;
+        private Label label5;
+        private Label label6;
+        private Panel panel1;
     }
 }

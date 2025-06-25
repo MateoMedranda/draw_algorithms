@@ -31,15 +31,20 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             menuStrip1 = new MenuStrip();
             algoritmoDiscretizaciónLíneasToolStripMenuItem = new ToolStripMenuItem();
+            algoritmosBresenhamToolStripMenuItem = new ToolStripMenuItem();
             algoritmoBresenhamLíneasToolStripMenuItem = new ToolStripMenuItem();
             algoritmoBresenhamCircunferenciaToolStripMenuItem = new ToolStripMenuItem();
             algoritmoDeRellenadoDibujoLibreToolStripMenuItem = new ToolStripMenuItem();
+            algoritmosDeRecorteToolStripMenuItem = new ToolStripMenuItem();
+            recorteDeLíneasToolStripMenuItem = new ToolStripMenuItem();
+            recorteDeFigurasSutherlandHodgmanToolStripMenuItem = new ToolStripMenuItem();
+            curvasDeBezierToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { algoritmoDiscretizaciónLíneasToolStripMenuItem, algoritmoBresenhamLíneasToolStripMenuItem, algoritmoBresenhamCircunferenciaToolStripMenuItem, algoritmoDeRellenadoDibujoLibreToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { algoritmoDiscretizaciónLíneasToolStripMenuItem, algoritmosBresenhamToolStripMenuItem, algoritmoDeRellenadoDibujoLibreToolStripMenuItem, algoritmosDeRecorteToolStripMenuItem, curvasDeBezierToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(1064, 24);
@@ -53,17 +58,24 @@
             algoritmoDiscretizaciónLíneasToolStripMenuItem.Text = "Algoritmo Discretización Líneas";
             algoritmoDiscretizaciónLíneasToolStripMenuItem.Click += algoritmoDiscretizaciónLíneasToolStripMenuItem_Click;
             // 
+            // algoritmosBresenhamToolStripMenuItem
+            // 
+            algoritmosBresenhamToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { algoritmoBresenhamLíneasToolStripMenuItem, algoritmoBresenhamCircunferenciaToolStripMenuItem });
+            algoritmosBresenhamToolStripMenuItem.Name = "algoritmosBresenhamToolStripMenuItem";
+            algoritmosBresenhamToolStripMenuItem.Size = new Size(140, 20);
+            algoritmosBresenhamToolStripMenuItem.Text = "Algoritmos Bresenham";
+            // 
             // algoritmoBresenhamLíneasToolStripMenuItem
             // 
             algoritmoBresenhamLíneasToolStripMenuItem.Name = "algoritmoBresenhamLíneasToolStripMenuItem";
-            algoritmoBresenhamLíneasToolStripMenuItem.Size = new Size(171, 20);
+            algoritmoBresenhamLíneasToolStripMenuItem.Size = new Size(270, 22);
             algoritmoBresenhamLíneasToolStripMenuItem.Text = "Algoritmo Bresenham Líneas";
-            algoritmoBresenhamLíneasToolStripMenuItem.Click += algoritmoBresenhamLíneasToolStripMenuItem_Click;
+            algoritmoBresenhamLíneasToolStripMenuItem.Click += algoritmoBresenhamLíneasToolStripMenuItem_Click_1;
             // 
             // algoritmoBresenhamCircunferenciaToolStripMenuItem
             // 
             algoritmoBresenhamCircunferenciaToolStripMenuItem.Name = "algoritmoBresenhamCircunferenciaToolStripMenuItem";
-            algoritmoBresenhamCircunferenciaToolStripMenuItem.Size = new Size(215, 20);
+            algoritmoBresenhamCircunferenciaToolStripMenuItem.Size = new Size(270, 22);
             algoritmoBresenhamCircunferenciaToolStripMenuItem.Text = "Algoritmo Bresenham Circunferencia";
             algoritmoBresenhamCircunferenciaToolStripMenuItem.Click += algoritmoBresenhamCircunferenciaToolStripMenuItem_Click;
             // 
@@ -73,6 +85,34 @@
             algoritmoDeRellenadoDibujoLibreToolStripMenuItem.Size = new Size(216, 20);
             algoritmoDeRellenadoDibujoLibreToolStripMenuItem.Text = "Algoritmo de rellenado (Dibujo Libre)";
             algoritmoDeRellenadoDibujoLibreToolStripMenuItem.Click += algoritmoDeRellenadoDibujoLibreToolStripMenuItem_Click;
+            // 
+            // algoritmosDeRecorteToolStripMenuItem
+            // 
+            algoritmosDeRecorteToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { recorteDeLíneasToolStripMenuItem, recorteDeFigurasSutherlandHodgmanToolStripMenuItem });
+            algoritmosDeRecorteToolStripMenuItem.Name = "algoritmosDeRecorteToolStripMenuItem";
+            algoritmosDeRecorteToolStripMenuItem.Size = new Size(137, 20);
+            algoritmosDeRecorteToolStripMenuItem.Text = "Algoritmos de Recorte";
+            // 
+            // recorteDeLíneasToolStripMenuItem
+            // 
+            recorteDeLíneasToolStripMenuItem.Name = "recorteDeLíneasToolStripMenuItem";
+            recorteDeLíneasToolStripMenuItem.Size = new Size(290, 22);
+            recorteDeLíneasToolStripMenuItem.Text = "Recorte de Líneas Cohen-Sutherland";
+            recorteDeLíneasToolStripMenuItem.Click += recorteDeLíneasToolStripMenuItem_Click;
+            // 
+            // recorteDeFigurasSutherlandHodgmanToolStripMenuItem
+            // 
+            recorteDeFigurasSutherlandHodgmanToolStripMenuItem.Name = "recorteDeFigurasSutherlandHodgmanToolStripMenuItem";
+            recorteDeFigurasSutherlandHodgmanToolStripMenuItem.Size = new Size(290, 22);
+            recorteDeFigurasSutherlandHodgmanToolStripMenuItem.Text = "Recorte de Figuras Sutherland-Hodgman";
+            recorteDeFigurasSutherlandHodgmanToolStripMenuItem.Click += recorteDeFigurasSutherlandHodgmanToolStripMenuItem_Click;
+            // 
+            // curvasDeBezierToolStripMenuItem
+            // 
+            curvasDeBezierToolStripMenuItem.Name = "curvasDeBezierToolStripMenuItem";
+            curvasDeBezierToolStripMenuItem.Size = new Size(105, 20);
+            curvasDeBezierToolStripMenuItem.Text = "Curvas de Bezier";
+            curvasDeBezierToolStripMenuItem.Click += curvasDeBezierToolStripMenuItem_Click;
             // 
             // Form1
             // 
@@ -97,8 +137,13 @@
 
         private MenuStrip menuStrip1;
         private ToolStripMenuItem algoritmoDiscretizaciónLíneasToolStripMenuItem;
+        private ToolStripMenuItem algoritmosBresenhamToolStripMenuItem;
         private ToolStripMenuItem algoritmoBresenhamLíneasToolStripMenuItem;
         private ToolStripMenuItem algoritmoBresenhamCircunferenciaToolStripMenuItem;
         private ToolStripMenuItem algoritmoDeRellenadoDibujoLibreToolStripMenuItem;
+        private ToolStripMenuItem algoritmosDeRecorteToolStripMenuItem;
+        private ToolStripMenuItem recorteDeLíneasToolStripMenuItem;
+        private ToolStripMenuItem recorteDeFigurasSutherlandHodgmanToolStripMenuItem;
+        private ToolStripMenuItem curvasDeBezierToolStripMenuItem;
     }
 }

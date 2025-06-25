@@ -4,13 +4,22 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormBezier.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormBresenham.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormCircunferencia.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormCohen.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormDDL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormHodgman.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormRellenoDibujoLibre.cs">
