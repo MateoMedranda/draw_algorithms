@@ -40,15 +40,28 @@ namespace tarea_relleno_circulo
             return new Point((int)x, (int)y);
         }
 
+        public void LinearDraw(Point p0, Point p1, Graphics g)
+        {
+            for (float i = 0; i < 1; i = i + (float)0.001)
+            {
+                plotPoint(Linear(p0, p1, i), g);
+            }
+        }
+
         public void CuadraticDraw(Point p0, Point p1, Point p2, Graphics g)
         {
             for (float i = 0; i < 1; i = i + (float)0.001)
             {
                 plotPoint(Cuadratic(p0, p1, p2, i), g);
             }
-
         }
 
-
+        public void CubicDraw(Point p0, Point p1, Point p2, Point p3, Graphics g)
+        {
+            for (float i = 0; i < 1; i = i + (float)0.001)
+            {
+                plotPoint(Cubic(p0, p1, p2, p3, i), g);
+            }
+        }
     }
 }
