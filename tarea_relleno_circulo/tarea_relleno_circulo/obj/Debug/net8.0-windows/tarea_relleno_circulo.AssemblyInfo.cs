@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tarea_relleno_circulo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a92a8be163c36b7ee0bc806f5c6b9116bd2ca6aa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4a33b7f2eb9be7d96187cc6eaa74f5a698e2119")]
 [assembly: System.Reflection.AssemblyProductAttribute("tarea_relleno_circulo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tarea_relleno_circulo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

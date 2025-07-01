@@ -36,6 +36,8 @@
             btnCuadratic = new FontAwesome.Sharp.IconButton();
             btnCubic = new FontAwesome.Sharp.IconButton();
             label1 = new Label();
+            label2 = new Label();
+            label4 = new Label();
             ((System.ComponentModel.ISupportInitialize)picCanvas).BeginInit();
             SuspendLayout();
             // 
@@ -153,12 +155,36 @@
             label1.TabIndex = 10;
             label1.Text = "Curvas de Bezier";
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 10F, FontStyle.Italic);
+            label2.ForeColor = Color.FromArgb(64, 0, 64);
+            label2.Location = new Point(44, 261);
+            label2.Name = "label2";
+            label2.Size = new Size(175, 19);
+            label2.TabIndex = 11;
+            label2.Text = "Para poder mostrar rastro,";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 10F, FontStyle.Italic);
+            label4.ForeColor = Color.FromArgb(64, 0, 64);
+            label4.Location = new Point(40, 289);
+            label4.Name = "label4";
+            label4.Size = new Size(223, 19);
+            label4.TabIndex = 13;
+            label4.Text = " debe tener activada la animación";
+            // 
             // FormBezier
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Thistle;
             ClientSize = new Size(845, 525);
+            Controls.Add(label4);
+            Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(btnCubic);
             Controls.Add(btnCuadratic);
@@ -184,5 +210,7 @@
         private FontAwesome.Sharp.IconButton btnCuadratic;
         private FontAwesome.Sharp.IconButton btnCubic;
         private Label label1;
+        private Label label2;
+        private Label label4;
     }
 }
