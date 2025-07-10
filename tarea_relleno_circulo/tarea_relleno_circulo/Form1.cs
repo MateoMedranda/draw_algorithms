@@ -11,6 +11,7 @@ namespace tarea_relleno_circulo
         FormCohen FormCohen = null;
         FormHodgman FormHodgman = null;
         FormBezier FormBezier = null;
+        FormElipse FormElipse = null;
 
         public Form1()
         {
@@ -84,6 +85,16 @@ namespace tarea_relleno_circulo
                 FormBezier = new FormBezier();
                 FormBezier.MdiParent = this;
                 FormBezier.Show();
+            }
+        }
+
+        private void algoritmoBresenhamElipseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (FormElipse == null || FormElipse.IsDisposed)
+            {
+                FormElipse = new FormElipse();
+                FormElipse.MdiParent = this;
+                FormElipse.Show();
             }
         }
     }

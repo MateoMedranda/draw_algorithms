@@ -39,6 +39,7 @@
             recorteDeLíneasToolStripMenuItem = new ToolStripMenuItem();
             recorteDeFigurasSutherlandHodgmanToolStripMenuItem = new ToolStripMenuItem();
             curvasDeBezierToolStripMenuItem = new ToolStripMenuItem();
+            algoritmoBresenhamElipseToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -60,7 +61,7 @@
             // 
             // algoritmosBresenhamToolStripMenuItem
             // 
-            algoritmosBresenhamToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { algoritmoBresenhamLíneasToolStripMenuItem, algoritmoBresenhamCircunferenciaToolStripMenuItem });
+            algoritmosBresenhamToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { algoritmoBresenhamLíneasToolStripMenuItem, algoritmoBresenhamCircunferenciaToolStripMenuItem, algoritmoBresenhamElipseToolStripMenuItem });
             algoritmosBresenhamToolStripMenuItem.Name = "algoritmosBresenhamToolStripMenuItem";
             algoritmosBresenhamToolStripMenuItem.Size = new Size(140, 20);
             algoritmosBresenhamToolStripMenuItem.Text = "Algoritmos Bresenham";
@@ -114,6 +115,13 @@
             curvasDeBezierToolStripMenuItem.Text = "Curvas de Bezier";
             curvasDeBezierToolStripMenuItem.Click += curvasDeBezierToolStripMenuItem_Click;
             // 
+            // algoritmoBresenhamElipseToolStripMenuItem
+            // 
+            algoritmoBresenhamElipseToolStripMenuItem.Name = "algoritmoBresenhamElipseToolStripMenuItem";
+            algoritmoBresenhamElipseToolStripMenuItem.Size = new Size(270, 22);
+            algoritmoBresenhamElipseToolStripMenuItem.Text = "Algoritmo Bresenham Elipse";
+            algoritmoBresenhamElipseToolStripMenuItem.Click += algoritmoBresenhamElipseToolStripMenuItem_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -145,5 +153,6 @@
         private ToolStripMenuItem recorteDeLíneasToolStripMenuItem;
         private ToolStripMenuItem recorteDeFigurasSutherlandHodgmanToolStripMenuItem;
         private ToolStripMenuItem curvasDeBezierToolStripMenuItem;
+        private ToolStripMenuItem algoritmoBresenhamElipseToolStripMenuItem;
     }
 }

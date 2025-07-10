@@ -119,3 +119,4 @@ C:\Users\Mateo\Downloads\draw_algorithms\tarea_relleno_circulo\tarea_relleno_cir
 C:\Users\MATEO\Desktop\draw_algorithms\tarea_relleno_circulo\tarea_relleno_circulo\obj\Debug\net8.0-windows\tarea_relleno_circulo.FormBezier.resources
 C:\Users\MATEO\Desktop\draw_algorithms\tarea_relleno_circulo\tarea_relleno_circulo\obj\Debug\net8.0-windows\tarea_relleno_circulo.FormCohen.resources
 C:\Users\MATEO\Desktop\draw_algorithms\tarea_relleno_circulo\tarea_relleno_circulo\obj\Debug\net8.0-windows\tarea_relleno_circulo.FormHodgman.resources
+C:\Users\Mateo\Desktop\draw_algorithms\tarea_relleno_circulo\tarea_relleno_circulo\obj\Debug\net8.0-windows\tarea_relleno_circulo.FormElipse.resources
